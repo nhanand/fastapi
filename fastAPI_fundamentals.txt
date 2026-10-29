@@ -56,4 +56,4 @@ uvicorn day2main:app --reload
    intro to pydentic    // user for data handling and validation 
      import and use in  class
 
-
+7. Pydantic Models + Data Validation + Nested Schemas
