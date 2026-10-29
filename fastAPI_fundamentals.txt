@@ -1,0 +1,59 @@
+1. API fundamentals
+- GET, POST, PUT, PATCH, DELETE
+- Path parameters, query parameters, JSON request body
+- HTTP status codes: 200, 201, 400, 404, 422, 500
+
+2. Validation and API contracts
+- Pydantic BaseModel
+- Field constraints and type validation
+- response_model and structured JSON responses 
+
+3. Project structure and dependencies
+- APIRouter and multiple files
+- Depends() and dependency injection
+- Environment variables and configuration
+
+4. Database integration
+- SQLAlchemy ORM and PostgreSQL
+- CRUD operations, sessions, transactions
+- Database migrations with Alembic
+
+5. RAG-specific APIs
+- UploadFile and PDF validation
+- Document IDs, user IDs and metadata
+- Ingestion, retrieval and question-answer endpoints
+- Streaming responses for generated answers
+
+6. Production readiness
+- Exception handling and logging
+- Authentication and authorization
+- pytest, TestClient and API testing
+- Docker, health checks and deployment
+
+=============================================================================================
+2. installation
+python -m venv venv   after that activate it
+
+pip install fastapi 
+pip install uvicorn
+
+pip list   
+uvicorn day2main:app --reload  
+
+3. basic routing and api
+
+4. dynamic routes  --- routes that changes based on path parameters
+   like user1 
+        user2
+
+5. query params 
+   optional parameters
+   default values 
+   multiple query params
+
+6. json input handling
+   post req
+   intro to pydentic    // user for data handling and validation 
+     import and use in  class
+
+
