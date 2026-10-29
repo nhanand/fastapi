@@ -59,3 +59,5 @@ uvicorn day2main:app --reload
 7. Pydantic Models + Data Validation + Nested Schemas
 8. crud operation -> use thunder client for testing optional
    no db connected. temporary list using as inmemorry db.
+
+9. FastAPI Tutorial #9 | Path + Query + Body Together | Real-World API Design
