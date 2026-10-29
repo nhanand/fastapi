@@ -6,7 +6,7 @@
 2. Validation and API contracts
 - Pydantic BaseModel
 - Field constraints and type validation
-- response_model and structured JSON responses 
+- response_model and structured JSON responses
 
 3. Project structure and dependencies
 - APIRouter and multiple files
@@ -57,3 +57,5 @@ uvicorn day2main:app --reload
      import and use in  class
 
 7. Pydantic Models + Data Validation + Nested Schemas
+8. crud operation -> use thunder client for testing optional
+   no db connected. temporary list using as inmemorry db.
