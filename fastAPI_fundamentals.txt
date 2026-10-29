@@ -1,5 +1,5 @@
 1. API fundamentals
-- GET, POST, PUT, PATCH, DELETE
+- GET, POST, PUT, PATCH, DELETE            
 - Path parameters, query parameters, JSON request body
 - HTTP status codes: 200, 201, 400, 404, 422, 500
 
@@ -61,3 +61,5 @@ uvicorn day2main:app --reload
    no db connected. temporary list using as inmemorry db.
 
 9. FastAPI Tutorial #9 | Path + Query + Body Together | Real-World API Design
+10. Response Models + Data Validation + Hide Sensitive Data 
+11. Status Codes + Custom Responses + Error Handling  
